@@ -1,2 +1,2 @@
-# typeAhead
+# typeahead.js
 test
