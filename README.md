@@ -78,4 +78,4 @@ Refer to demo below for a detailed example.
 
 ## Demo
 
-You can view a live demo and some examples of how to use the various options [here](https://codepen.io/Bhavin36/full/aaVxLj/).
+You can view a live demo and some examples of how to use the various options [here](https://codepen.io/Bhavin36/full/gGmwpz/).
