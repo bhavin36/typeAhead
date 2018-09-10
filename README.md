@@ -1,6 +1,10 @@
 # [typeahead.js](https://github.com/bhavin36/typeAhead)
 Inspired by twitter's autocomplete search functionality [typeahead.js](https://github.com/twitter/typeahead.js).
  this JavaScript library customizable autocomplete functionality for Bootstarp (uses Bootstrap downdown.js).
+<p align="center">
+<img src="https://github.com/bhavin36/typeAhead/blob/master/img/editMode.png" />
+<img src="https://github.com/bhavin36/typeAhead/blob/master/img/live-search.png" />
+</p>
 
 ## Quick start
 
@@ -57,7 +61,7 @@ When `highlight` is set to `true`, it is required that the desired text to highl
 ```html
 <span data-for-highlight='true'>....</span>
 ```
-Refer to demo below for example.
+Refer to demo below for a detailed example.
 
 ## Demo
 
