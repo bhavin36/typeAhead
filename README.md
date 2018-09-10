@@ -1,6 +1,6 @@
 # [typeahead.js](https://github.com/bhavin36/typeAhead)
 Inspired by twitter's autocomplete search functionality [typeahead.js](https://github.com/twitter/typeahead.js).
- this JavaScript library customizable autocomplete functionality for Bootstarp (uses Bootstrap downdown.js).
+ This JavaScript library customizable autocomplete functionality for Bootstrap (uses Bootstrap downdown.js).
 <p align="center">
 <img src="https://github.com/bhavin36/typeAhead/blob/master/img/editMode.png" />
 <img src="https://github.com/bhavin36/typeAhead/blob/master/img/live-search.png" />
@@ -24,7 +24,7 @@ Manually download `typeAhead.js` [here](https://raw.githubusercontent.com/bhavin
 ```js
 $txt.typeahead({
     //options...
-    // see options section below for mode details.
+    // see options section below for more details.
     });
 ```
 ---
@@ -44,7 +44,7 @@ $txt.typeahead({
   listBuilderFn:  function (data/* returned from searchFn*/) {
       // Format: <li><a>...</a><li>
       // should return array of strings eg:["<li><a>1</a><li>","<li><a>1</a><li>"...]
-      return $.get("https:...." + searchString);
+      return [];
 	},
   // item is chosen
   itemSelectedFn: function ($currentElement/* the target element which was clicked*/) {
@@ -56,8 +56,19 @@ $txt.typeahead({
 });
 ```
 ---
+#### `editMode` option
+##### `true`
+When `editMode` is set to `true`, the below UI is rendered
+<img src="https://github.com/bhavin36/typeAhead/blob/master/img/editMode.png" />
+
+User can either <i>clear</i> the selected value, if any, by clicking "x" or trigger search by clicking the magnifying glass icon.
+
+##### `false`
+When `editMode` is set to `false`, the below UI is rendered
+<img src="https://github.com/bhavin36/typeAhead/blob/master/img/live-search.png" />
+
 #### `highlight` option
-When `highlight` is set to `true`, it is required that the desired text to highlight is wrapped in an element with `data-for-highlight='true'` attribute. this can be done within the `listBuilderFn`
+When `highlight` is set to `true`, it is required that the desired text to highlight is wrapped in an element with `data-for-highlight='true'` attribute. This can be done within the `listBuilderFn`
 ```html
 <span data-for-highlight='true'>....</span>
 ```
