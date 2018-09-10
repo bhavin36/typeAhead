@@ -23,13 +23,14 @@ $txt.typeahead({
     // see options section below for mode details.
     });
 ```
+---
 ## Options
 ```js
 $txt.typeahead({
   placeholderText: "Search...", //placeholder text for input field
   editMode: true, //Default: true. Determines if UI is rendered as live-search or edit(allows user to manually trigger live-search) mode. 
   highlight: true //Default: true. Determines if the search text will be highlighted in dropdown menu.
-  minLength: 2, //Default:2. Determines the minimun search string text length to trigger the search function(searchFn).
+  minLength: 2, //Default:2. Determines the minimum search string text length to trigger the search function(searchFn).
   // data search function
   searchFn: function (searchString) {    
       // should return Deferred or Promise Object
@@ -50,6 +51,14 @@ $txt.typeahead({
 	}
 });
 ```
+---
+#### `highlight` option
+When `highlight` is set to `true`, it is required that the desired text to highlight is wrapped in an element with `data-for-highlight='true'` attribute. this can be done within the `listBuilderFn`
+```html
+<span data-for-highlight='true'>....</span>
+```
+Refer to demo below for example.
+
 ## Demo
 
 You can view a live demo and some examples of how to use the various options [here](https://codepen.io/Bhavin36/full/aaVxLj/).
