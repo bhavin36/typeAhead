@@ -79,3 +79,8 @@ Refer to demo below for a detailed example.
 ## Demo
 
 You can view a live demo and some examples of how to use the various options [here](https://codepen.io/Bhavin36/full/gGmwpz/).
+
+## Copyright and License
+MIT License
+Copyright (c) 2018 Bhavin Patel **typeAhead.js** is a free open-source project. 
+The code is released under [MIT License](https://github.com/bhavin36/typeAhead/blob/master/LICENSE).
