@@ -59,12 +59,14 @@ $txt.typeahead({
 #### `editMode` option
 ##### `true`
 When `editMode` is set to `true`, the below UI is rendered
+
 <img src="https://github.com/bhavin36/typeAhead/blob/master/img/editMode.png" />
 
 User can either <i>clear</i> the selected value, if any, by clicking "x" or trigger search by clicking the magnifying glass icon.
 
 ##### `false`
 When `editMode` is set to `false`, the below UI is rendered
+
 <img src="https://github.com/bhavin36/typeAhead/blob/master/img/live-search.png" />
 
 #### `highlight` option
