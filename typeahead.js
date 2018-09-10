@@ -1,5 +1,5 @@
-﻿/*!
- * Live data search
+/*!
+ * Live data search for bootstrap
  * Bhavin Patel 2017
  */
 
@@ -47,11 +47,12 @@
             this.$element.detach();
             this.$dropdown = $("<div class='dropdown s-typeahead'>");
             this.editMode = this.options.editMode;
+            var btnSmCss = (this.$element.hasClass("input-sm") ? "btn-sm " : "");
             var ig = $(
-                '<div class="input-group">' +
-                '  <div class="input-group-btn">' +
-                '    <button type="button" class="btn btn-sm btn-default typeahead-close"><i class="fa fa-times"></i></button>   ' +
-                '	  <button type="button" class="btn btn-sm btn-default typeahead-search" ><i class="fa fa-search"></i></button>' +
+                "<div class=\"input-group\">" +
+                "  <div class=\"input-group-btn\">" +
+                "    <button type=\"button\" class=\"btn " + btnSmCss + " btn-default typeahead-close\"><i class=\"fa fa-times\"></i></button>   " +
+                "	 <button type=\"button\" class=\"btn " + btnSmCss + " btn-default typeahead-search\" ><i class=\"fa fa-search\"></i></button>" +
                 "  </div>" +
                 "</div>"
             );
