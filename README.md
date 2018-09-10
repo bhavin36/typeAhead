@@ -47,8 +47,6 @@ $txt.typeahead({
 	},
   closedFn: function (event, isClear) {
       // isClear: returns false if "X" is clicked in "live-search" mode, otherwise false.
-      // should return array of strings eg:["<li><a>1</a><li>","<li><a>1</a><li>"...]
-      return $.get("https:...." + searchString);
 	}
 });
 ```
