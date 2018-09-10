@@ -1,6 +1,8 @@
 /*!
- * Live data search for bootstrap
- * Bhavin Patel 2017
+ * Live data search
+ * https://github.com/bhavin36/typeAhead
+ * MIT License 
+ * Copyright (c) 2018 Bhavin Patel
  */
 
 (function ($, window, document) {
