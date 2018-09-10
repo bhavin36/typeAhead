@@ -8,7 +8,7 @@ Inspired by twitter's autocomplete search functionality [typeahead.js](https://g
 
 ## Quick start
 
-typeAhead.js requires jQuery v1.9.1+, Bootstrap’s dropdown.js component, and Bootstrap's CSS. If you're not already using Bootstrap in your project, a precompiled version of the Bootstrap v3.3.7 minimum requirements can be downloaded [here](https://getbootstrap.com/docs/3.3/customize/?id=7830063837006f6fc84f).
+typeAhead.js requires jQuery v1.9.1+, Bootstrap’s dropdown.js component, Bootstrap's CSS and [Font Awesome](https://fontawesome.com/v4.7.0/icons/). If you're not already using Bootstrap in your project, a precompiled version of the Bootstrap v3.3.7 minimum requirements can be downloaded [here](https://getbootstrap.com/docs/3.3/customize/?id=7830063837006f6fc84f).
 
 ## Install
 Manually download `typeAhead.js` [here](https://raw.githubusercontent.com/bhavin36/typeAhead/master/typeahead.js) and include in your page/project.
